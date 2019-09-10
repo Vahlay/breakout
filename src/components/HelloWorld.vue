@@ -19,7 +19,7 @@
         </h1>
         <p class="subheading font-weight-regular">
           For help and collaboration with other Vuetify developers,
-          <br>please join our online
+          <br>please join our online <v-icon>mdi-anchor</v-icon>
           <a href="https://community.vuetifyjs.com" target="_blank">Discord Community</a>
         </p>
       </v-flex>
@@ -142,3 +142,9 @@ export default Vue.extend({
   }),
 });
 </script>
+
+<style>
+  body{
+    font-family: Roboto, Arial, sans-serif;
+  }
+</style>
