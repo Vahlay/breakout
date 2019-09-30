@@ -7,6 +7,8 @@
         <div class="player-bar-container">
             <player-bar/>
         </div>
+
+        <ball/>
     </div>
     
 </template>
@@ -15,12 +17,14 @@
     import Vue from 'vue';
     import PlayerBar from './PlayerBar.vue';
     import Brick from './Brick.vue';
+    import Ball from './Ball.vue';
 
     export default Vue.extend({
         name: 'GameArea',
         components: {
             PlayerBar,
             Brick,
+            Ball
         },
         methods: {
         },
