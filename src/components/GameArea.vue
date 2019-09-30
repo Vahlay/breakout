@@ -24,7 +24,7 @@
         components: {
             PlayerBar,
             Brick,
-            Ball
+            Ball,
         },
         methods: {
         },
