@@ -10,7 +10,6 @@
 
         <ball/>
     </div>
-    
 </template>
 
 <script lang="ts">
@@ -26,19 +25,17 @@
             Brick,
             Ball,
         },
-        methods: {
-        },
     });
 </script>
 
 <style scoped>
-    .game-area{
-        background-color: rgba(150,150,0,0.5);
-        width   : 100%;
-        height  : 100%;
+    .game-area {
+        background-color: rgba(150, 150, 0, 0.5);
+        width: 100%;
+        height: 100%;
 
         display: flex;
-        flex-direction: column
+        flex-direction: column;
     }
 
     .bricks-container {
