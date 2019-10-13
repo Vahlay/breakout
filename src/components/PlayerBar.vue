@@ -1,5 +1,5 @@
 <template>
-    <div class="player-bar" :style="{'margin-left': `${playerBarOffset}%`}"></div>
+    <div class="player-bar" :style="{'margin-left': `${playerBarOffset}px`}"></div>
 </template>
 
 <script lang="ts">
